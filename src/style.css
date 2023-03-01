@@ -1,0 +1,44 @@
+/*@import url('mont serrat google');
+*/
+*{
+    box-sizing: border-box; /* garante que não tenha a barra horizontal */
+}
+
+
+:root{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding-top: 7.75rem;
+}
+
+ul{
+    display: flex;
+    list-style: none; /* desabilita bolinha (estilo da lista */
+    padding-left: 0; 
+}
+
+
+.navbar{
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    top: 0;
+    left: 0;
+    
+    
+    width: 100vw; /* define 100 view width*/
+    height: 7.75rem; /* altura do navbar*/
+    padding: 0 1rem; /* define 1rem de espaçamento interno para direita e esquerda*/
+    
+    
+    background-color: #000;
+    color: #fff;
+    
+
+
+}
