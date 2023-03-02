@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/leonardob0rges/StudiOn/issues"
   },
-  "homepage": "https://github.com/leonardob0rges/StudiOn#readme"
+  "homepage": "https://github.com/leonardob0rges/StudiOn#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }
